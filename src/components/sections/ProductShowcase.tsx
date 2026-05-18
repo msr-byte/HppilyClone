@@ -4,7 +4,6 @@ import { motion } from "framer-motion"
 import { Container } from "../ui/Container"
 import { Typography } from "../ui/Typography"
 import { Button } from "../ui/Button"
-import Image from "next/image"
 
 export function ProductShowcase() {
   return (

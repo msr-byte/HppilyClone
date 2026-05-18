@@ -21,7 +21,7 @@ export function Typography({ variant = "p", className, children, ...props }: Typ
   }
 
   return (
-    // @ts-ignore
+    // @ts-expect-error dynamic component
     <Component className={cn(variants[variant], className)} {...props}>
       {children}
     </Component>

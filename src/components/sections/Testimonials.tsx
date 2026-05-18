@@ -30,7 +30,7 @@ export function Testimonials() {
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <Typography variant="h2" className="mb-4">Loved by innovators</Typography>
           <Typography variant="p" className="text-gray-500 dark:text-gray-400">
-            Don't just take our word for it. See what our customers have to say about their experience.
+            Don&apos;t just take our word for it. See what our customers have to say about their experience.
           </Typography>
         </div>
 
@@ -45,7 +45,7 @@ export function Testimonials() {
             >
               <Card className="p-8 h-full flex flex-col justify-between">
                 <Typography variant="p" className="italic mb-8 text-gray-700 dark:text-gray-300">
-                  "{testimonial.quote}"
+                  &quot;{testimonial.quote}&quot;
                 </Typography>
                 <div className="flex items-center gap-4 mt-auto">
                   <div className="h-10 w-10 rounded-full bg-gray-200 dark:bg-gray-800" />
