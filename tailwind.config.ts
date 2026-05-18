@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        brand: {
+          DEFAULT: "#108474",
+          light: "#e2cdd9",
+          coral: "#e26554",
+          peach: "#f4cabb",
+        }
       },
     },
   },
