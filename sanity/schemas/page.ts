@@ -23,9 +23,14 @@ export default defineType({
       title: 'Page Sections',
       type: 'array',
       of: [
-        { type: 'reference', to: [{ type: 'product' }] },
-        { type: 'reference', to: [{ type: 'faq' }] },
-        { type: 'reference', to: [{ type: 'testimonial' }] },
+        {
+          type: 'reference',
+          to: [
+            { type: 'product' },
+            { type: 'faq' },
+            { type: 'testimonial' }
+          ]
+        }
       ],
     }),
   ],
